@@ -11,3 +11,6 @@ Patch for [https://github.com/pelya/android-keyboard-gadget](https://github.com/
 It makes the phone act as a HID device, both mouse and keyboard.
 TODO: gotta add stuff to also tweak selinux I guess.
 
+##### drivedroid patch
+This is already in the default lineage os kernel, no further action required.
+
