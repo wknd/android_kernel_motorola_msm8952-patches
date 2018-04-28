@@ -1,0 +1,13 @@
+diff --git a/drivers/bluetooth/btusb.c b/drivers/bluetooth/btusb.c
+index 8869bba..545c24e 100644
+--- a/drivers/bluetooth/btusb.c
++++ b/drivers/bluetooth/btusb.c
+@@ -39,7 +39,7 @@ static bool disable_scofix;
+ static bool force_scofix;
+ 
+ static int sco_conn;
+-static int reset = 1;
++static bool reset = true;
+ 
+ static struct usb_driver btusb_driver;
+ 
